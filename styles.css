@@ -79,7 +79,7 @@
   margin-left: 15%;
 }
 
-.learn-more {
+.watch-replay {
   height: 35px;
   width: 150px;
   background-color: white;
@@ -116,7 +116,7 @@
 
 .textbox {
   width: 100%;
-  height: 30vh;
+  height: 20vh;
   background-color: white;
   display: flex;
   justify-content: center;
@@ -135,14 +135,95 @@
   width: 100%;
   height: 70vh;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 }
 
 .card {
-  width: 200px;
-  height: 500px;
-  box-shadow: 5px, 5px, 5px red;
+  width: 300px;
+  height: 350px;
+  background-color: white;
+  border: black 1px solid;
+  box-shadow: 2px 10px 10px black;
   display: flex;
+  justify-content: space-evenly;
+  position: relative;
+}
+
+.card > img {
+  width: 75%;
+  height: 50%;
+  padding-top: 10px;
+}
+
+.card > p {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 70px;
+  margin-left: 3%;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.learn-more {
+  width: 100%;
+  height: 5vh;
+  display: flex;
+  align-items: flex-start;
+  position: absolute;
+  bottom: 5px;
+  margin-left: 3%;
+}
+
+.learn-more > p {
+  font-family: ", brandon-grotesque, Helvetica, sans-serif;";
+  font-size: 14px;
+  color: rgb(53, 105, 164);
+  font-weight: 400;
+}
+
+.navbar {
+  width: 100%;
+  height: 5vh;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.navbar-first {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 70%;
+  margin-left: 5%;
+}
+
+.navbar-first > ul {
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+  width: 40%;
+  font-family: ", brandon-grotesque, Helvetica, sans-serif;";
+  font-size: 12px;
+  font-weight: 400;
+  list-style: none;
+}
+
+.company-name {
+  display: flex;
+  align-items: center;
+  width: 30%;
+}
+
+.company-name > p {
+  font-size: 12px;
+  font-family: ", brandon-grotesque, Helvetica, sans-serif";
+  font-weight: 400;
+  color: rgb(102, 102, 102);
+  width: 100%;
+  align-items: center;
   justify-content: center;
 }
